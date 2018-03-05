@@ -12,7 +12,7 @@
 
     <groupId>io.swagger</groupId>
     <artifactId>swagger-codegen-generators</artifactId>
-    <version>1.0.0.unblu-1</version>
+    <version>1.0.0.unblu-1b</version>
     <packaging>jar</packaging>
 
     <build>
@@ -170,7 +170,7 @@
         <surefire-version>2.19.1</surefire-version>
         <jmockit-version>1.25</jmockit-version>
         <reflections-version>0.9.10</reflections-version>
-        <swagger-codegen-version>3.0.0.unblu-1</swagger-codegen-version>
+        <swagger-codegen-version>3.0.0.unblu-1b</swagger-codegen-version>
     </properties>
 
 </project>
