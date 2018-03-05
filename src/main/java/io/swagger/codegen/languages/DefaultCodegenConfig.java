@@ -1,7 +1,6 @@
 package io.swagger.codegen.languages;
 
 import com.github.jknack.handlebars.Handlebars;
-import com.samskivert.mustache.Mustache;
 import io.swagger.codegen.CliOption;
 import io.swagger.codegen.CodegenArgument;
 import io.swagger.codegen.CodegenConfig;
@@ -361,12 +360,6 @@ public abstract class DefaultCodegenConfig implements CodegenConfig {
 
     @Override
     public void processOpenAPI(OpenAPI openAPI) {
-    }
-
-    // override with any special handling of the JMustache compiler
-    @SuppressWarnings("unused")
-    public Mustache.Compiler processCompiler(Mustache.Compiler compiler) {
-        return compiler;
     }
 
     // override with any special text escaping logic
